@@ -1,8 +1,38 @@
 <resources>
-    <string name="app_name">Navigation</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+
+
+
+
+    <!--sheng slang-->
+
+
+    <string name="app_name">Sheng Slang</string>
+    <string name="about">
+        <b>Sheng</b> is a Swahili-based cant\, perhaps a mixed language or creole, originating among the urban underclass of Nairobi, Kenya, and influenced by many of the languages spoken there. While primarily a language of urban youths, it has spread across social classes and geographically to neighbouring Tanzania and Uganda.
+    </string>
+    <string name="title2">
+        History
+    </string>
+    <string name="histo1">
+        The word "Sheng" is coined from the two languages that it is mainly derived from: Swahili and English. The "h" was included from the middle of "Swahili because "Seng" would have sounded unusual.
+    </string>
+    <string name="histo2">
+        Originating in the early 1950s in the Eastlands area of Nairobi (variously described as a "slum", "ghetto" or "suburb"), Sheng is now heard among matatu drivers/touts across the region, and in the popular media. Most of the Sheng words are introduced in various communities and schools and given wide exposure by music artists who include them in their lyrics, hence the rapid growth. It can be assumed to be the first language of many Kenyans in urban areas.
+    </string>
+    <string name="title3">
+        Grammer and Syntax
+    </string>
+    <string name="grammer">
+        Although the grammar, syntax, and much of the vocabulary are drawn from Swahili, Sheng borrows from English and from the languages of various ethnic groups in Kenya, including Luhya, Gĩkũyũ, Luo and Kamba. Words are also borrowed from languages that are neither a local language nor English – such as the Sheng word morgen "morning" – a Sheng word used in some areas with a similar meaning in German.
+    </string>
+    <string name="grammer2">
+        Sheng vocabulary can vary significantly within Kenya\'s various subdivisions and the larger African Great Lakes region, and even between neighbourhoods in Nairobi. Many youth living in the capital often use the argot as their everyday mode of communication rather than Swahili or English.
+    </string>
 </resources>

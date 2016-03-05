@@ -2,4 +2,114 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title2"
+                    android:textColor="#4C0E0F"
+                    android:textSize="24dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="0.05">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/histo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/histo1"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="0.34">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/histo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:text="@string/histo2" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4C0E0F"
+                    android:textSize="24dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:text="@string/title3" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/grammer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:text="@string/grammer" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/grammer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textIsSelectable="false"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginRight="20dip"
+                    android:text="@string/grammer2" >
+                </TextView>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
 </FrameLayout>

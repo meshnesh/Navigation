@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import navigation.demo.food;
 import navigation.demo.greetings;
 import navigation.demo.navigation;
 
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             fn.beginTransaction().replace(R.id.frame, new greetings()).commit();
         } else if (id == R.id.nav_gallery) {
+            fn.beginTransaction().replace(R.id.frame, new food()).commit();
 
         } else if (id == R.id.nav_slideshow) {
 

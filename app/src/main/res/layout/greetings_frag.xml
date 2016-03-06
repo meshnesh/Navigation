@@ -20,17 +20,6 @@
                 android:orientation="vertical"
                 android:weightSum="1">
 
-                <TextView
-                    android:id="@+id/about"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/about"
-                    android:textSize="18dp"
-                    android:textIsSelectable="false"
-                    android:layout_marginLeft="20dip"
-                    android:layout_marginTop="20dip"
-                    android:layout_marginRight="20dip">
-                </TextView>
 
                 <TextView
                     android:id="@+id/title2"

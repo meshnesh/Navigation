@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import navigation.demo.conversation;
 import navigation.demo.food;
 import navigation.demo.greetings;
+import navigation.demo.main;
 import navigation.demo.navigation;
 import navigation.demo.numbers;
 import navigation.demo.places;
@@ -90,7 +91,12 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
+            fn.beginTransaction().replace(R.id.frame, new main()).commit();
+        }
+
+
+       else if (id == R.id.nav_camera) {
             fn.beginTransaction().replace(R.id.frame, new greetings()).commit();
         } else if (id == R.id.nav_gallery) {
             fn.beginTransaction().replace(R.id.frame, new food()).commit();

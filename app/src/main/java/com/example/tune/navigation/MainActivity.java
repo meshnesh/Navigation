@@ -14,9 +14,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import navigation.demo.conversation;
 import navigation.demo.food;
 import navigation.demo.greetings;
 import navigation.demo.navigation;
+import navigation.demo.numbers;
+import navigation.demo.places;
+import navigation.demo.transport;
 
 import static com.example.tune.navigation.R.*;
 
@@ -100,12 +104,17 @@ public class MainActivity extends AppCompatActivity
             fn.beginTransaction().replace(R.id.frame, new food()).commit();
 
         } else if (id == R.id.nav_slideshow) {
+            fn.beginTransaction().replace(R.id.frame, new conversation()).commit();
 
         } else if (id == R.id.nav_manage) {
+            fn.beginTransaction().replace(R.id.frame, new places()).commit();
 
         } else if (id == R.id.nav_share) {
+            fn.beginTransaction().replace(R.id.frame, new numbers()).commit();
 
         } else if (id == R.id.nav_send) {
+
+            fn.beginTransaction().replace(R.id.frame, new transport()).commit();
 
         }
 

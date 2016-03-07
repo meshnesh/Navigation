@@ -35,4 +35,63 @@
     <string name="grammer2">
         Sheng vocabulary can vary significantly within Kenya\'s various subdivisions and the larger African Great Lakes region, and even between neighbourhoods in Nairobi. Many youth living in the capital often use the argot as their everyday mode of communication rather than Swahili or English.
     </string>
+
+    <string name="grammar">
+        Genereal Conversations
+    </string>
+
+    <string name="a1">
+        Toka teke – Run fast…
+    </string>
+
+    <string name="a2">
+        Choma picha – To spoil a situation…
+
+    </string>
+
+    <string name="a3">
+        Pewa maji – Drink alcohol…
+
+    </string>
+    <string name="a4">
+        Paka mafuta – To con…
+
+    </string>
+    <string name="a5">
+        Kula ridhe – To be shot…
+
+    </string>
+    <string name="a6">
+        Kuingiza fridge –  Be afraid…
+
+    </string>
+    <string name="a7">
+        uko kwa ngori - you\'re in trouble
+
+    </string>
+    <string name="a8">
+        Kuwa na pang’ang’a – You are a loud mouth…
+
+    </string>
+    <string name="a9">
+        Kumvutia wire – Calling someone…
+
+    </string>
+    <string name="a10">
+        Kudunga Hema – Chilling out…
+
+    </string>
+    <string name="a11">
+        Raundi mwenda – Walk around…
+
+    </string>
+    <string name="a12">
+        kutoa form - have a plan
+
+    </string>
+    <string name="a13">
+        kusonga mtaani - go home
+
+    </string>
+
 </resources>

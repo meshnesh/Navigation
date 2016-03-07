@@ -2,9 +2,6 @@ package com.example.tune.navigation;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
-
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -23,10 +20,14 @@ import navigation.demo.numbers;
 import navigation.demo.places;
 import navigation.demo.transport;
 
-import static com.example.tune.navigation.R.*;
+import static com.example.tune.navigation.R.id;
+import static com.example.tune.navigation.R.layout;
+import static com.example.tune.navigation.R.string;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

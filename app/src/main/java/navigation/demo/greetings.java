@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import static com.example.tune.navigation.R.layout.frame_main;
+
 import static com.example.tune.navigation.R.layout.greetings_frag;
 
 /**
